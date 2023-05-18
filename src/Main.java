@@ -12,6 +12,14 @@ public class Main {
 			P1.add(d.deal());
 			P2.add(d.deal());
 		}
+		System.out.println("Player 1");
+		for (Card c:P1) {
+			System.out.println(c.getName());
+		}
+		System.out.println("Player 2");
+		for (Card c:P2) {
+			System.out.println(c.getName());
+		}
 		System.out.println();
 	}
 
