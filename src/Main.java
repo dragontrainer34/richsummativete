@@ -6,7 +6,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		Deck d = new Deck();
 		d.shuffle();
-		ArrayList<Card> P1 = new ArrayList<>();
+		Player P1 = new Player();
 		ArrayList<Card> P2 = new ArrayList<>();
 		ArrayList<Card> P3 = new ArrayList<>();
 		ArrayList<Card> P4 = new ArrayList<>();
@@ -43,3 +43,14 @@ public class Main {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
